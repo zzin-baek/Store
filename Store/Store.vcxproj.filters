@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="상점">
+      <UniqueIdentifier>{89ca73fb-a920-4ec7-bda3-4aff9da57515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="인벤토리">
+      <UniqueIdentifier>{e82a16bd-8914-4e4a-8d21-c63fd1997257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="플레이어">
+      <UniqueIdentifier>{233df7f4-f4f5-4a17-8d04-e981f7b5e484}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Accessories.cpp">
+      <Filter>상점</Filter>
+    </ClCompile>
+    <ClCompile Include="Items.cpp">
+      <Filter>상점</Filter>
+    </ClCompile>
+    <ClCompile Include="Portion.cpp">
+      <Filter>상점</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>상점</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>상점</Filter>
+    </ClCompile>
+    <ClCompile Include="MainStore.cpp" />
+    <ClCompile Include="Player.cpp">
+      <Filter>플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>인벤토리</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Accessories.h">
+      <Filter>상점</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>상점</Filter>
+    </ClInclude>
+    <ClInclude Include="Portion.h">
+      <Filter>상점</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>상점</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>상점</Filter>
+    </ClInclude>
+    <ClInclude Include="MainStore.h" />
+    <ClInclude Include="Player.h">
+      <Filter>플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h" />
+    <ClInclude Include="Inventory.h">
+      <Filter>인벤토리</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
